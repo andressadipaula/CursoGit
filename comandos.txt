@@ -2,3 +2,6 @@ aula 5
 ls -la : vizualiza pastas ocultas
 touch arquivo.txt : cria um arquivo
 ls: vizualiza os arquivos dentro do diretorio
+git log --stat : estatistica de cada commit
+git log --pretty=format: "%h - %an, %ar : %s" : formatando a forma d mpstrar o log
+git log --since=2.days : mostra o log de commits dos ultimos dois dias
