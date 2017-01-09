@@ -12,4 +12,6 @@ git checkout '1309e0c050' : volta para commit citado
 git checkout master : volta para master
 git reset HEAD~1 --soft :volta um commit anterior (~2 volta dois commits), deixando pronto para ser  commitado
 git reset HEAD~1 --hard : tira o ultimo commit
+git checkout -b funcionalidade1 : cria uma branch com o nome funcionalidade1
+ls: lista o que tem 
 
