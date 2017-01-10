@@ -18,3 +18,9 @@ ls: lista o que tem
 
 git merge funcionalidade1 : coloca tudo que esta na banch funcionalidade1 na branch master, criando um novo commit
 git rebase funcionalidade1 : organiza os commits em uma ordem linear, traz o commit do funcionalidade1 pro master sem criar um novo commit
+
+rm -rf pasta : apaga o diretorio
+git clone https://github.com/andressadipaula/CursoGit.git Bola : clona para uma pasta chamada bola
+git branch -a : vizualiza as branch remoto que existe
+git checkout -b funcionalidade1 origin/funcionalidade1 : cria a branch funcionalidade1 e traz pra o diretorio
+git pull : atualiza (inclusive branch que ainda nao foi clonada no diretorio)
