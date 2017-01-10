@@ -15,3 +15,6 @@ git reset HEAD~1 --hard : tira o ultimo commit
 git checkout -b funcionalidade1 : cria uma branch com o nome funcionalidade1
 ls: lista o que tem 
 
+
+git merge funcionalidade1 : coloca tudo que esta na banch funcionalidade1 na branch master, criando um novo commit
+git rebase funcionalidade1 : organiza os commits em uma ordem linear, traz o commit do funcionalidade1 pro master sem criar um novo commit
